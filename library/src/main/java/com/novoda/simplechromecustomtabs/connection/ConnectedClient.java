@@ -1,7 +1,7 @@
 package com.novoda.simplechromecustomtabs.connection;
 
-import android.support.annotation.NonNull;
-import android.support.customtabs.CustomTabsClient;
+import androidx.annotation.NonNull;
+import androidx.browser.customtabs.CustomTabsClient;
 
 class ConnectedClient {
 

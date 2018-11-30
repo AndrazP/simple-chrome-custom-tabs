@@ -5,12 +5,13 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
-import android.support.annotation.WorkerThread;
-import android.support.customtabs.CustomTabsService;
 import android.text.TextUtils;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.annotation.WorkerThread;
+import androidx.browser.customtabs.CustomTabsService;
 
 class BestPackageFinder {
 

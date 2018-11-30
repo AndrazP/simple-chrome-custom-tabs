@@ -1,7 +1,7 @@
 package com.novoda.simplechromecustomtabs.navigation;
 
-import android.support.annotation.ColorInt;
-import android.support.customtabs.CustomTabsIntent;
+import androidx.annotation.ColorInt;
+import androidx.browser.customtabs.CustomTabsIntent;
 
 class ToolbarColorComposer implements Composer {
 

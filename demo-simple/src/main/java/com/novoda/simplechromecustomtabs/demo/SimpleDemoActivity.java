@@ -3,13 +3,14 @@ package com.novoda.simplechromecustomtabs.demo;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.novoda.simplechromecustomtabs.SimpleChromeCustomTabs;
 import com.novoda.simplechromecustomtabs.navigation.NavigationFallback;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import static com.novoda.simplechromecustomtabs.provider.AvailableAppProvider.PackageFoundCallback;
 

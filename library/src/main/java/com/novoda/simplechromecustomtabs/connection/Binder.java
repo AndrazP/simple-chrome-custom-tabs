@@ -2,12 +2,13 @@ package com.novoda.simplechromecustomtabs.connection;
 
 import android.content.ComponentName;
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.customtabs.CustomTabsClient;
-import android.support.customtabs.CustomTabsServiceConnection;
 import android.util.Log;
 
 import com.novoda.simplechromecustomtabs.provider.AvailableAppProvider;
+
+import androidx.annotation.NonNull;
+import androidx.browser.customtabs.CustomTabsClient;
+import androidx.browser.customtabs.CustomTabsServiceConnection;
 
 class Binder {
 

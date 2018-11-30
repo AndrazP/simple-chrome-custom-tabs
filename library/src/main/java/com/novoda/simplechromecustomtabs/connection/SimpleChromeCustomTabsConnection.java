@@ -2,7 +2,8 @@ package com.novoda.simplechromecustomtabs.connection;
 
 import android.app.Activity;
 import android.net.Uri;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 class SimpleChromeCustomTabsConnection implements Connection, ServiceConnectionCallback {
 

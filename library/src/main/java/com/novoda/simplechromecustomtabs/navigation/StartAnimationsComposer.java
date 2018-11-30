@@ -1,9 +1,10 @@
 package com.novoda.simplechromecustomtabs.navigation;
 
 import android.content.Context;
-import android.support.annotation.AnimRes;
-import android.support.annotation.NonNull;
-import android.support.customtabs.CustomTabsIntent;
+
+import androidx.annotation.AnimRes;
+import androidx.annotation.NonNull;
+import androidx.browser.customtabs.CustomTabsIntent;
 
 class StartAnimationsComposer implements Composer {
 

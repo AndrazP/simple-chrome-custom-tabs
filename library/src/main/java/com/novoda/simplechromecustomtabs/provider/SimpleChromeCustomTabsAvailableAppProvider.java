@@ -1,11 +1,12 @@
 package com.novoda.simplechromecustomtabs.provider;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.WorkerThread;
 import android.text.TextUtils;
 
 import java.util.concurrent.Executor;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.WorkerThread;
 
 class SimpleChromeCustomTabsAvailableAppProvider implements AvailableAppProvider {
 

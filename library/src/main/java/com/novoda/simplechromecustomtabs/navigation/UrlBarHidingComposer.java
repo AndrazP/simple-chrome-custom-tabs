@@ -1,6 +1,6 @@
 package com.novoda.simplechromecustomtabs.navigation;
 
-import android.support.customtabs.CustomTabsIntent;
+import androidx.browser.customtabs.CustomTabsIntent;
 
 class UrlBarHidingComposer implements Composer {
 

@@ -2,7 +2,7 @@ package com.novoda.simplechromecustomtabs.navigation;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.support.customtabs.CustomTabsIntent;
+import androidx.browser.customtabs.CustomTabsIntent;
 
 import com.novoda.simplechromecustomtabs.connection.Connection;
 import com.novoda.simplechromecustomtabs.connection.Session;

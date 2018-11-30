@@ -1,6 +1,5 @@
 package com.novoda.simplechromecustomtabs.demo.linkify;
 
-import android.support.annotation.NonNull;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.Spanned;
@@ -10,6 +9,8 @@ import android.util.Patterns;
 import android.widget.TextView;
 
 import java.util.List;
+
+import androidx.annotation.NonNull;
 
 /**
  * A custom version of {@link android.text.util.Linkify} which allows the user to set their own listener for when any of the Web links has been clicked

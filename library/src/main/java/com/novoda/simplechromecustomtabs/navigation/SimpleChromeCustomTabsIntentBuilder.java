@@ -3,15 +3,16 @@ package com.novoda.simplechromecustomtabs.navigation;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.support.annotation.AnimRes;
-import android.support.annotation.ColorInt;
-import android.support.customtabs.CustomTabsIntent;
 
 import com.novoda.simplechromecustomtabs.connection.Connection;
 import com.novoda.simplechromecustomtabs.connection.Session;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.annotation.AnimRes;
+import androidx.annotation.ColorInt;
+import androidx.browser.customtabs.CustomTabsIntent;
 
 public class SimpleChromeCustomTabsIntentBuilder {
 

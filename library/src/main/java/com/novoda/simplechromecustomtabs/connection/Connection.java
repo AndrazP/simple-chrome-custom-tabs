@@ -2,9 +2,10 @@ package com.novoda.simplechromecustomtabs.connection;
 
 import android.app.Activity;
 import android.net.Uri;
-import android.support.annotation.NonNull;
 
 import com.novoda.simplechromecustomtabs.provider.AvailableAppProvider;
+
+import androidx.annotation.NonNull;
 
 public interface Connection {
 

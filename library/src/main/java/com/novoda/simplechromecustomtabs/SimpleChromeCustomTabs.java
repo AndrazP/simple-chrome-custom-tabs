@@ -4,8 +4,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.customtabs.CustomTabsSession;
 
 import com.novoda.simplechromecustomtabs.connection.Connection;
 import com.novoda.simplechromecustomtabs.connection.Session;
@@ -16,6 +14,9 @@ import com.novoda.simplechromecustomtabs.navigation.WebNavigator;
 import com.novoda.simplechromecustomtabs.provider.AvailableAppProvider;
 
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.browser.customtabs.CustomTabsSession;
 
 public final class SimpleChromeCustomTabs implements WebNavigator, Connection, AvailableAppProvider {
 
@@ -96,7 +97,7 @@ public final class SimpleChromeCustomTabs implements WebNavigator, Connection, A
     }
 
     /**
-     * Connects given activity to {@link android.support.customtabs.CustomTabsService}
+     * Connects given activity to {@link androidx.browser.customtabs.CustomTabsService}
      *
      * @param activity the {@link Activity} to which the custom tabs service will be bound
      *

@@ -1,8 +1,9 @@
 package com.novoda.simplechromecustomtabs.navigation;
 
 import android.app.PendingIntent;
-import android.support.annotation.NonNull;
-import android.support.customtabs.CustomTabsIntent;
+
+import androidx.annotation.NonNull;
+import androidx.browser.customtabs.CustomTabsIntent;
 
 class MenuItemComposer implements Composer {
 

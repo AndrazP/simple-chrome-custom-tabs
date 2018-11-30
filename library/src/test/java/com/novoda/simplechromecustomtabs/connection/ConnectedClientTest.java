@@ -1,6 +1,6 @@
 package com.novoda.simplechromecustomtabs.connection;
 
-import android.support.customtabs.CustomTabsClient;
+import androidx.browser.customtabs.CustomTabsClient;
 
 import org.junit.Before;
 import org.junit.Test;

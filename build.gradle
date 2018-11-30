@@ -1,11 +1,28 @@
+ext {
+
+    configuration = [
+            compileSdkVersion: 28,
+            minSdkVersion    : 16,
+            targetSdkVersion : 28,
+    ]
+
+    libraries = [
+            appcompat     : "1.0.2",
+            browser       : "1.0.0",
+            material_design : "1.0.0",
+    ]
+}
+
 allprojects {
     buildscript {
         repositories {
             jcenter()
+            google()
         }
     }
 
     repositories {
         jcenter()
+        google()
     }
 }

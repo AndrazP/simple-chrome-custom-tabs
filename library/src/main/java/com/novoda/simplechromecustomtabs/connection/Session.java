@@ -1,7 +1,7 @@
 package com.novoda.simplechromecustomtabs.connection;
 
 import android.net.Uri;
-import android.support.customtabs.CustomTabsSession;
+import androidx.browser.customtabs.CustomTabsSession;
 
 public interface Session {
     void mayLaunch(Uri uri);
